@@ -1,0 +1,131 @@
+/* Font Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Text Styling */
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 1.2em;
+    color: #34495e;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+/* Pseudo Class */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Inheritance */
+/* Styling for the list items */
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for alignment */
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Centers items */
+}
+
+/* Individual list items */
+ul li {
+    display: inline-block; /* Display items inline */
+    margin: 10px; /* Margin around each item */
+    padding: 10px; /* Padding inside each item */
+    background-color: #ecf0f1; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s; /* Smooth transformation */
+}
+
+/* Hover effect for list items */
+ul li:hover {
+    transform: scale(1.05); /* Slightly enlarge item on hover */
+    background-color: #bdc3c7; /* Change background color on hover */
+}
+
+
+/* Display */
+h2, ul, table, form {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* Dimensi */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Margin */
+.contact-info li, .daftar-proyek li, .daftar-skills li, .daftar-tools li, .kemampuan-bahasa li {
+    margin-bottom: 0.5em;
+}
+
+/* Padding */
+form input[type="text"], form input[type="email"], form textarea {
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Additional Styling */
+.contact-info, .daftar-proyek, .daftar-skills, .daftar-tools, .kemampuan-bahasa {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li, .daftar-proyek li {
+    font-size: 1.1em;
+}
+
+.daftar-proyek a {
+    color: #2980b9;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 0.5em;
+}
